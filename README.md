@@ -19,7 +19,7 @@
 
 <h3><code>vidyansh@github ~ $ ./connect.sh</code></h3>
 
-<p><b>Open Source Contributor · Kubernetes · Go · Python · Typescript</b></p>
+<p><b>Open Source Contributor · Kubernetes · Go</b></p>
 
 <a href="https://github.com/reckless-sherixx">github.com/reckless-sherixx</a>
 
