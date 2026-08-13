@@ -8,11 +8,12 @@ def test_card_contains_only_approved_identity_copy():
     ET.fromstring(svg)
     for text in (
         "Vidyansh Singh",
-        "Open Source Developer · Kubernetes · Go",
+        "Open Source Contributor · Kubernetes · Go",
         "Cloud Native and Distributed Systems",
         "Go · Kubernetes · TypeScript · Docker",
     ):
         assert text in svg
+    assert "Open Source Developer" not in svg
     assert "employed at" not in svg.lower()
 
 

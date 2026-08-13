@@ -28,7 +28,8 @@ def test_generated_svgs_are_valid_xml():
 
 def test_readme_contains_only_verified_identity_and_profile_link():
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    assert "Open Source Developer · Kubernetes · Go" in readme
+    assert "Open Source Contributor · Kubernetes · Go" in readme
+    assert "Open Source Developer" not in readme
     assert "https://github.com/reckless-sherixx" in readme
     assert "linkedin.com" not in readme.lower()
     assert "instagram.com" not in readme.lower()

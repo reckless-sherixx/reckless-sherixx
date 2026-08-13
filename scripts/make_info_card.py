@@ -11,7 +11,7 @@ from pathlib import Path
 DEFAULT_OUTPUT = Path(__file__).resolve().parents[1] / "info-card.svg"
 ROWS = (
     ("Name", "Vidyansh Singh"),
-    ("Role", "Open Source Developer · Kubernetes · Go"),
+    ("Role", "Open Source Contributor · Kubernetes · Go"),
     ("Focus", "Cloud Native and Distributed Systems"),
     ("Stack", "Go · Kubernetes · TypeScript · Docker"),
     ("GitHub", "github.com/reckless-sherixx"),
@@ -38,7 +38,7 @@ def render_info_card(static: bool = False) -> str:
         ),
         "<title>Vidyansh Singh profile information</title>",
         (
-            "<desc>Open Source Developer specializing in Kubernetes and Go, focused on "
+            "<desc>Open Source Contributor specializing in Kubernetes and Go, focused on "
             "Cloud Native and Distributed Systems.</desc>"
         ),
     ]
