@@ -1,22 +1,22 @@
 {
   "username": "reckless-sherixx",
-  "generated_at": "2026-08-30T11:58:10Z",
+  "generated_at": "2026-08-31T13:58:28Z",
   "range": {
     "start": "2025-08-31",
+    "end": "2026-08-31"
+  },
+  "total_contributions": 1346,
+  "active_days": 179,
+  "avg_per_active_day": 7.5,
+  "current_streak": {
+    "length": 27,
+    "start": "2026-08-04",
     "end": "2026-08-30"
   },
-  "total_contributions": 1345,
-  "active_days": 178,
-  "avg_per_active_day": 7.6,
-  "current_streak": {
-    "length": 26,
-    "start": "2026-08-04",
-    "end": "2026-08-29"
-  },
   "longest_streak": {
-    "length": 26,
+    "length": 27,
     "start": "2026-08-04",
-    "end": "2026-08-29"
+    "end": "2026-08-30"
   },
   "best_day": {
     "date": "2026-08-24",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 664
+      "total": 665
     }
   ],
   "days": [
@@ -1535,6 +1535,10 @@
     },
     {
       "date": "2026-08-30",
+      "count": 1
+    },
+    {
+      "date": "2026-08-31",
       "count": 0
     }
   ]
